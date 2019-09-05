@@ -6,7 +6,6 @@ Template: spasalon
 Version: 0.1.0
 */
 
-
 /*header*/
 
 .container{
@@ -26,8 +25,6 @@ Version: 0.1.0
 .navbar-brand{
     margin-left: 8em !important;
 }
-
-
 
 /*body*/
 
@@ -61,21 +58,110 @@ hr{
 }
 
 p{
-
     color:whitesmoke;
 }
+
 .row{
     margin: 0;
 }
+
 .card-img-top {
     max-height: 400px;
     width: 100%;
 }
 
 .card {
-    background-color: aqua;
+    background-color: rgb(21, 133, 118);
+    height: 50em;
+    width: 30em;
+    margin-left: 6.8em;
+    margin-top: 10em;
+    margin-bottom: 10em;  
 }
+
 .col-lg-6 img{
     height: 180px;
-    width: 220px;
+    width: 220px;  
 }
+
+#card1{
+    border-radius: 90px 45px 45px 90px;
+    -moz-border-radius: 90px 45px 45px 90px;
+    -webkit-border-radius: 90px 45px 45px 90px;
+    border: 1px solid #000000;
+    box-shadow: #000000;
+    -webkit-box-shadow: 7px 2px 13px 3px rgba(0,0,0,0.75);
+    -moz-box-shadow: 7px 2px 13px 3px rgba(0,0,0,0.75);
+    box-shadow: 7px 2px 13px 3px rgba(0,0,0,0.75);
+}
+
+.card-body {
+    padding-top: 25%;
+}
+
+#cardimg1{
+    border-radius: 90px 45px 0px 0px;
+    -moz-border-radius: 90px 45px 0px 0px;
+    -webkit-border-radius: 90px 45px 0px 0px;
+}
+
+#card2{
+    border-radius: 45px 45px 45px 45px;
+    -moz-border-radius: 45px 45px 45px 45px;
+    -webkit-border-radius: 45px 45px 45px 45px;
+    border: 1px solid #000000;
+    -webkit-box-shadow: 0px 1px 17px 8px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 1px 17px 8px rgba(0,0,0,0.75);
+    box-shadow: 0px 1px 17px 8px rgba(0,0,0,0.75);
+}
+
+#cardimg2{
+    border-radius: 45px 45px 0px 0px;
+    -moz-border-radius: 45px 45px 0px 0px;
+    -webkit-border-radius: 45px 45px 0px 0px;
+}
+
+#card3{
+    border-radius: 45px 90px 90px 45px;
+    -moz-border-radius: 45px 90px 90px 45px;
+    -webkit-border-radius: 45px 90px 90px 45px;
+    border: 1px solid #000000;
+    -webkit-box-shadow: -7px 2px 13px 3px rgba(0,0,0,0.75);
+    -moz-box-shadow: -7px 2px 13px 3px rgba(0,0,0,0.75);
+    box-shadow: -7px 2px 13px 3px rgba(0,0,0,0.75);
+}
+
+#cardimg3{
+    border-radius: 45px 90px 0px 0px;
+    -moz-border-radius: 45px 90px 0px 0px;
+    -webkit-border-radius: 45px 90px 0px 0px;
+}
+
+  
+  .parallax {
+    /* The image used */
+    
+
+    /* Full height */
+    height: 100%; 
+  
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .parallax {
+    /* The image used */
+    
+
+    /* Full height */
+    height: 100%; 
+  
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }

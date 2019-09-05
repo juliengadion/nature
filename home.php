@@ -36,11 +36,11 @@ get_header();
             <div class="card-deck">
 
                 <div class="col-lg-4">
-                    <div class="card">
-                        <img src="http://marion2/wp-content/uploads/2019/09/7211740-11069009.jpg" class="card-img-top"
+                    <div class="card" id="card1">
+                        <img src="http://marion2/wp-content/uploads/2019/09/pexels-photo-129743.jpg" class="card-img-top" id="cardimg1"
                             alt="...">
                         <div class="card-body">
-                            <h5 class="card-title">Card title</h5>
+                            <h5 class="card-title">Bilan d'hygiène de vie</h5>
                             <p class="card-text">This is a longer card with supporting text below as a natural lead-in
                                 to additional content. This content is a little bit longer.</p>
                             <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
@@ -49,24 +49,25 @@ get_header();
                 </div>
 
                 <div class="col-lg-4">
-                    <div class="card">
-                        <img src="http://marion2/wp-content/uploads/2019/09/Formation-Naturopathie.jpg"
-                            class="card-img-top" alt="...">
+                    <div class="card" id="card2">
+                        <img src="http://marion2/wp-content/uploads/2019/09/pexels-photo-257840.jpg"
+                            class="card-img-top"  id="cardimg2" alt="...">
                         <div class="card-body">
-                            <h5 class="card-title">Card title</h5>
-                            <p class="card-text">This card has supporting text below as a natural lead-in to additional
-                                content.</p>
+                            <h5 class="card-title">Conseils en alimentation</h5>
+                            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
+                                additional content. This card has even longer content than the first to show that equal
+                                height action.</p>
                             <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
                         </div>
                     </div>
                 </div>
 
                 <div class="col-lg-4">
-                    <div class="card">
-                        <img src="http://marion2/wp-content/uploads/2019/09/naturopathie.jpg" class="card-img-top"
+                    <div class="card" id="card3">
+                        <img src="http://marion2/wp-content/uploads/2019/09/pexels-photo-235990.jpg" class="card-img-top"  id="cardimg3"
                             alt="...">
                         <div class="card-body">
-                            <h5 class="card-title">Card title</h5>
+                            <h5 class="card-title">Gestion du stress et des émotions</h5>
                             <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
                                 additional content. This card has even longer content than the first to show that equal
                                 height action.</p>
@@ -76,6 +77,35 @@ get_header();
                 </div>
             </div>
 
+            
+
+
+
         </div>
     </div>
+
+<!-- parallax -->
+
+<div img src= "http://marion2/wp-content/uploads/2019/09/pexels-photo-460621.jpeg" >
+
+
+            <div class="parallax"></div>
+            
+            <div style="height:1000px;background-color:rgba(133, 110, 110, 0.473);font-size:36px">
+                    Scroll Up and Down this page to see the parallax scrolling effect.
+                    This div is just here to enable scrolling.
+                    Tip: Try to remove the background-attachment property to remove the scrolling effect.
+            </div>
+
+            <div class="parallax"></div>
+        
+        </div>
+       
+            </div>
+
+
+<!-- parallax fin -->
+
+
+
 </div>
