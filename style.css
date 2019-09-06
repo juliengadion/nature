@@ -8,6 +8,10 @@ Version: 0.1.0
 
 /*header*/
 
+html{
+    scroll-behavior: smooth;
+}
+
 .container{
     padding: 0% !important;
     margin: 0 !important; 
@@ -43,6 +47,7 @@ Version: 0.1.0
     width: 71%;
     background-color: rgb(242, 40, 83);
     margin-left: 15%;
+    margin-bottom: 10%;
 }
 
 #panneau{
@@ -135,6 +140,11 @@ Version: 0.1.0
     -moz-border-radius: 45px 90px 0px 0px;
     -webkit-border-radius: 45px 90px 0px 0px;
 }
+
+#cardbottom{
+    margin-bottom: 10%;
+}
+
 /*parallax*/
    .parallax {  
     height: 100%;  
@@ -144,11 +154,51 @@ Version: 0.1.0
     background-size: cover;
     background-blend-mode: overlay; 
     background-color: rgba(0, 0, 0, 0.486);
-  } 
+}
+
   #parallax_106_postcontent > div:nth-child(1) > div:nth-child(1){
     color: whitesmoke;
     margin-top: 170px;
-    text-shadow: 3px 3px 10px rgb(0, 0, 0);
+    
    
-  }
+}
+
+  #navf > nav:nth-child(1) > div:nth-child(1) > div:nth-child(2){
+      padding: 0;
+}
+
+  #FooterMenu{
+      list-style: none;
+      background-color: rgb(242, 40, 83);
+      width: 250px;
+      height: 300px;
+      color: whitesmoke;
+      margin: 0;
+      padding: 0;
+
+}
+
+  #FooterMenu li a{
+    color: whitesmoke;
+    font-size: 1.5em;
+    margin: 30px;
+    
+}
+
+  nav.navbar:nth-child(11) > div:nth-child(1) > div:nth-child(2){
+    margin: 0;
+    padding: 0;
+}
+
+#navf{
+    padding: 0;
+    width: 60px;
+}
+
+#rgpd {
+      text-align: center;
+}
+
+  
+
  

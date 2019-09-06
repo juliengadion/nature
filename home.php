@@ -31,7 +31,7 @@ get_header();
 
             <div class="card-deck">
 
-                <div class="col-lg-4">
+                <div class="col-lg-4" id="cardbottom">
                     <div class="card" id="card1">
                         <img src="http://marion2/wp-content/uploads/2019/09/pexels-photo-459301.jpeg"
                             class="card-img-top" id="cardimg1" alt="...">
@@ -80,18 +80,25 @@ get_header();
         </div>
     </div>
 
-<!-- parallax -->
 
+
+<!-- parallax -->
     <div class="parallax" 
   
     <?php echo do_shortcode('[parallax-scroll id="106"]') ?>
+
+    
    
-</div>
+    </div>
+
 <!-- parallax fin -->
+
+
+
+
 <!-- footer -->
 <div>
     <?php get_footer();?>
-
 </div>
 
 
