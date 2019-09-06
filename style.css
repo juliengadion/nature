@@ -35,6 +35,7 @@ Version: 0.1.0
     background-image: url(image/02_01_slide_naturecfghk.jpg);
     background-blend-mode: overlay; 
     background-color: rgba(245, 245, 245, 0.521);
+    background-attachment: fixed;
 }
 
 .bandeau{
@@ -49,7 +50,6 @@ Version: 0.1.0
        width: 60%;
        margin-top: 30px;
        margin-left: 50px;
-     
 }
 
 #citation p{
@@ -135,32 +135,20 @@ Version: 0.1.0
     -moz-border-radius: 45px 90px 0px 0px;
     -webkit-border-radius: 45px 90px 0px 0px;
 }
-
-  
-  .parallax {
-    /* The image used */
-    
-
-    /* Full height */
-    height: 100%; 
-  
-    /* Create the parallax scrolling effect */
+/*parallax*/
+   .parallax {  
+    height: 100%;  
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    background-blend-mode: overlay; 
+    background-color: rgba(0, 0, 0, 0.486);
+  } 
+  #parallax_106_postcontent > div:nth-child(1) > div:nth-child(1){
+    color: whitesmoke;
+    margin-top: 170px;
+    text-shadow: 3px 3px 10px rgb(0, 0, 0);
+   
   }
-
-  .parallax {
-    /* The image used */
-    
-
-    /* Full height */
-    height: 100%; 
-  
-    /* Create the parallax scrolling effect */
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-  }
+ 

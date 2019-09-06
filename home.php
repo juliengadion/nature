@@ -80,23 +80,21 @@ get_header();
         </div>
     </div>
 
-    <!-- parallax -->
+<!-- parallax -->
 
-
-
+    <div class="parallax" 
+  
+    <?php echo do_shortcode('[parallax-scroll id="106"]') ?>
+   
 </div>
-
-
 <!-- parallax fin -->
-
-<p>Après la naissance de ma première fille, je me suis tournée vers le naturel au quotidien. Il
-    était
-    primordial pour moi d’utiliser pour elle uniquement des produits naturels.
-    Le naturel c’est alors imposé partout : alimentation, santé, bien être, …
-
-    Pour en arriver là je me suis énormément documenté avec toujours l’envie d’en savoir plus. C’est
-    la
-    que la naturopathie est devenue une évidence pour moi.
-</p>
+<!-- footer -->
+<div>
+    <?php get_footer();?>
 
 </div>
+
+
+
+
+
