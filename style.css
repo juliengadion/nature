@@ -5,7 +5,7 @@ Author:42
 Template: spasalon
 Version: 0.1.0
 */
-
+/* page d'accueil*/
 /*header*/
 
 html{
@@ -92,7 +92,6 @@ html{
     border-radius: 90px 45px 45px 90px;
     -moz-border-radius: 90px 45px 45px 90px;
     -webkit-border-radius: 90px 45px 45px 90px;
-    border: 1px solid #000000;
     box-shadow: #000000;
     -webkit-box-shadow: 7px 2px 13px 3px rgba(0,0,0,0.75);
     -moz-box-shadow: 7px 2px 13px 3px rgba(0,0,0,0.75);
@@ -158,10 +157,10 @@ html{
 
   #parallax_106_postcontent > div:nth-child(1) > div:nth-child(1){
     color: whitesmoke;
-    margin-top: 170px;
-    
-   
+    margin-top: 170px; 
 }
+
+ /* footer */
 
   #navf > nav:nth-child(1) > div:nth-child(1) > div:nth-child(2){
       padding: 0;
@@ -196,9 +195,52 @@ html{
 }
 
 #rgpd {
-      text-align: center;
+      text-align: right;
+      margin-top: 15em;
 }
 
-  
+.mainfooter{
+    background-color:rgb(10, 34, 42);
+    
+}
 
- 
+/* page contacts */
+
+.containercontact{
+    margin-left: 45em;
+    background-color:  rgb(242, 40, 83);
+    height: 75em;
+    width: 50em;
+    text-align: center;
+    padding-top: 40px;
+}
+
+h1{
+    color: whitesmoke;
+    padding-bottom: 40px;
+}
+
+.back{
+    background-image: url(http://marion2/wp-content/uploads/2019/09/02_01_slide_naturecfghk.jpg);
+    background-size: cover;
+    background-blend-mode: overlay; 
+    background-color: rgba(245, 245, 245, 0.521);
+    background-attachment: fixed;
+}
+
+label{
+    padding-bottom: 2em;
+    color: whitesmoke;
+}
+
+.wpcf7-submit{
+    background-color: pink !important;
+    color: rgb(242, 40, 83) !important;
+}
+.wpcf7-submit:hover{
+
+}
+
+/* page atelier */
+
+

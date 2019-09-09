@@ -1,6 +1,6 @@
 <?php
 /*
-Template Name: home
+Template Name: ateliers
 */
 get_header();
 
@@ -87,8 +87,6 @@ get_header();
   
     <?php echo do_shortcode('[parallax-scroll id="106"]') ?>
 
-    
-   
     </div>
 
 <!-- parallax fin -->

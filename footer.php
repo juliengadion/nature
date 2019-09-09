@@ -14,7 +14,10 @@
 	<?php wp_footer(); 
 		$current_options = wp_parse_args(  get_option( 'spa_theme_options', array() ), default_data() );
 		?>
+</head>
 
+<main>
+	<div class="mainfooter">
 
 	<!-- Navbar -->
 	<div class="row">
@@ -54,8 +57,6 @@
 					</div>
 			</nav>
 
-
-
 		</div>
 
 		<div class="col-lg-10" id="rgpd">
@@ -73,9 +74,7 @@
 			</div>
 		</div>
 
-		
-
-
-
-
 	</div>
+
+</div>
+</main>

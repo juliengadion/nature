@@ -1,42 +1,22 @@
 <?php
 /*
-Template Name: home
+Template Name: contact
 */
-get_header();
 
+
+
+
+
+get_header();
 ?>
 
-<div class="container">
-
-        <div class="img">
-
-                <div class="bandeau">
-                    <div class="row">
-                        <div class="col-lg-6">
-                            <img id="panneau"
-                                src="http://marion2/wp-content/uploads/2019/09/panneau-bois-suspendu-clou-rouille-copie-1.png"
-                                alt="panneau">
-                        </div>
-        
-                        <div class="col-lg-6" id="citation">
-                      <p>« Tout ce dont nous avons besoin pour rester sain,
-                            la nature nous l’a donné en abondance »</p>
-                         <p>Sébastian Kneipp</p> 
-                        </div>
-        
-                    </div>
-                </div>
-                <!-- bandeau fin -->
-
-
-
-
-
-
-
-
-
-
-
+<div class="back">
+    <div class="containercontact">
+        <h1 class="contact">Contactez moi :</h1>
+        <?php echo do_shortcode( '[contact-form-7 id="130" title="Contact form 1"]' );?>
+    </div>
 </div>
-</div>
+
+<?php
+get_footer();
+?>
