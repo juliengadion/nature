@@ -98,6 +98,39 @@ html{
     box-shadow: 7px 2px 13px 3px rgba(0,0,0,0.75);
 }
 
+@-webkit-keyframes bounce {
+    from,
+    20%,
+    53%,
+    80%,
+    to {
+      -webkit-animation-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
+      animation-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
+      -webkit-transform: translate3d(0, 0, 0);
+      transform: translate3d(0, 0, 0);
+    }
+  
+    40%,
+    43% {
+      -webkit-animation-timing-function: cubic-bezier(0.755, 0.05, 0.855, 0.06);
+      animation-timing-function: cubic-bezier(0.755, 0.05, 0.855, 0.06);
+      -webkit-transform: translate3d(0, -30px, 0);
+      transform: translate3d(0, -30px, 0);
+    }
+  
+    70% {
+      -webkit-animation-timing-function: cubic-bezier(0.755, 0.05, 0.855, 0.06);
+      animation-timing-function: cubic-bezier(0.755, 0.05, 0.855, 0.06);
+      -webkit-transform: translate3d(0, -15px, 0);
+      transform: translate3d(0, -15px, 0);
+    }
+  
+    90% {
+      -webkit-transform: translate3d(0, -4px, 0);
+      transform: translate3d(0, -4px, 0);
+    }
+  }
+
 .card-body {
     padding-top: 25%;
 }
@@ -146,7 +179,8 @@ html{
 
 /*parallax*/
    .parallax {  
-    height: 100%;  
+    height: 100%;
+    width: 100%;
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -155,9 +189,18 @@ html{
     background-color: rgba(0, 0, 0, 0.486);
 }
 
-  #parallax_106_postcontent > div:nth-child(1) > div:nth-child(1){
-    color: whitesmoke;
-    margin-top: 170px; 
+img.wp-image-133.alignnone{
+    border: solid 2px rgb(242, 40, 83) ;
+    border-radius: 50%;
+}
+
+#parallax_106_postcontent{
+    width: 200%;
+    height: 90%;
+}
+#parallax_106_content{
+    margin: 0;
+    width: 200%;
 }
 
  /* footer */
@@ -215,7 +258,7 @@ html{
     padding-top: 40px;
 }
 
-h1{
+.contact{
     color: whitesmoke;
     padding-bottom: 40px;
 }
@@ -237,10 +280,65 @@ label{
     background-color: pink !important;
     color: rgb(242, 40, 83) !important;
 }
-.wpcf7-submit:hover{
 
-}
 
 /* page atelier */
 
 
+#rowatelier {
+    text-align: center;
+    background-color: rgb(179, 150, 194);
+    padding-top: 50px;
+    padding-left: 80px;
+    padding-right: 80px;
+    padding-bottom: 50px;
+}
+
+#rowatelier p {
+    padding-top: 65px;
+    font-size: 20px;
+}
+
+#rowatelierfin {
+    padding-bottom: 100px;
+    background-color: rgb(179, 150, 194);
+    padding-top: 50px;
+    padding-left: 80px;
+    padding-right: 80px;
+    text-align: center;
+}
+
+#rowatelierfin p {
+    padding-top: 65px;
+    font-size: 20px;
+}
+
+.hr{
+    margin: 0;
+    height: 1px;
+    padding: 0 80px;
+    background-color: whitesmoke;
+}
+.imgateliers {
+    border-radius: 50%;
+}
+
+.col-lg-2,.arrowatelier {
+   font-size: 2em;
+   padding-top: 140px;
+}
+h1{
+    font-weight: bold;
+    font-size: 4em !important;
+}
+h2{
+    color: rgb(242, 40, 83);
+    margin: 0;
+}
+#homeateliers{
+    background-color:  rgb(179, 150, 194);
+    margin: 0;
+    padding: 50px;
+    text-align: center;
+    color: whitesmoke;
+}

@@ -1,6 +1,6 @@
 <?php
 /*
-Template Name: ateliers
+Template Name: home
 */
 get_header();
 
@@ -18,9 +18,9 @@ get_header();
                 </div>
 
                 <div class="col-lg-6" id="citation">
-              <p>« Tout ce dont nous avons besoin pour rester sain,
-                    la nature nous l’a donné en abondance »</p>
-                 <p>Sébastian Kneipp</p> 
+                    <p>« Tout ce dont nous avons besoin pour rester sain,
+                        la nature nous l’a donné en abondance »</p>
+                    <p>Sébastian Kneipp</p>
                 </div>
 
             </div>
@@ -71,6 +71,7 @@ get_header();
                         </div>
                     </div>
                 </div>
+                
             </div>
 
 
@@ -82,13 +83,14 @@ get_header();
 
 
 
-<!-- parallax -->
-    <div class="parallax" 
-  
-    <?php echo do_shortcode('[parallax-scroll id="106"]') ?>
-
+    <!-- parallax -->
+    <div class="row">
+        <div class="parallax" <?php echo do_shortcode('[parallax-scroll id="106"]') ?>
+          
     </div>
 
+
+</div>
 <!-- parallax fin -->
 
 
@@ -98,8 +100,3 @@ get_header();
 <div>
     <?php get_footer();?>
 </div>
-
-
-
-
-
